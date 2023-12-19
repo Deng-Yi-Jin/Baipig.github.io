@@ -1,0 +1,38 @@
+.capybara {
+	width: 100px;
+	height: 50px;
+	background: brown;
+	border-radius: 50%;
+	position: relative;
+  }
+  
+  .capybara::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: 15px;
+  }
+  
+  .pig {
+	width: 100px;
+	height: 50px;
+	background: pink;
+	border-radius: 50%;
+	position: relative;
+  }
+  
+  .pig::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 20px;
+	top: 15px;
+  }
+  
